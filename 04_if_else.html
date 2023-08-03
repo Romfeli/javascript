@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso del if</title>
+</head>
+<body>
+        <p id="demo">De acuerdo a la nota introducida tu calificacion es: </p>
+        <script>
+            
+            const nota = Number(prompt("indica una nota"))
+            let notaletra
+
+            if (nota >=19){
+                notaletra = "A"
+            }
+            else if(nota >= 16) {
+                notaletra = "B"
+            
+            } else if(nota >= 12) {
+                notaletra = "C"
+            
+            }else if(nota >= 9) {
+                notaletra = "D"
+            
+            }else if (nota <= 8) {
+                notaletra = "C"
+            
+            }
+            alert(notaletra)
+            document.getElementById("demo").innerHTML += notaletra
+
+        </script>
+
+        
+
+</body>
+</html>
