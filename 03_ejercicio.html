@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meses deel año</title>
+</head>
+<body>
+    <!--  creaos etiquetas con un id para luego usar con js -->
+    <p id="meses1">mes 1: </p>
+    <p id="meses2">mes 2: </p>
+    <p id="meses3">mes 3: </p>
+    <p id="meses4">mes 4: </p>
+    <p id="meses5">mes 5: </p>
+    <p id="meses6">mes 6: </p>
+    <p id="meses7">mes 7: </p>
+    <p id="meses8">mes 8: </p>
+    <p id="meses9">mes 9: </p>
+    <p id="meses10">mes 10: </p>
+    <p id="meses11">mes 11: </p>
+    <p id="meses12">mes 12: </p>
+
+    <script>
+        //es un array en javascript
+        const meses_del_año = [
+            "Enero ",
+            "Febrero ",
+            "Marzo ",
+            "Abril ",
+            "Mayo ",
+            "Junio ",
+            "Julio ",
+            "Agosto ",
+            "Septiembre ",
+            "Octubre  ",
+            "Noviembre ",
+            "diciembre ",
+
+        ]
+        // muestra en pantalla como un print
+        alert(meses_del_año)
+         // muestra en pantalla buscando un elemento en el html por el id, dentro del html y le suma el texto de <p> mas el elemento del aray correspondiente
+        document.getElementById("meses1").innerHTML += meses_del_año[0]
+        document.getElementById("meses2").innerHTML += meses_del_año[1]
+
+        document.getElementById("meses3").innerHTML += meses_del_año[2]
+
+        document.getElementById("meses4").innerHTML += meses_del_año[3]
+        document.getElementById("meses5").innerHTML += meses_del_año[4]
+        document.getElementById("meses6").innerHTML += meses_del_año[5]
+        document.getElementById("meses7").innerHTML += meses_del_año[6]
+        document.getElementById("meses8").innerHTML += meses_del_año[7]
+        document.getElementById("meses9").innerHTML += meses_del_año[8]
+        document.getElementById("meses10").innerHTML += meses_del_año[9]
+        document.getElementById("meses11").innerHTML += meses_del_año[10]
+        document.getElementById("meses12").innerHTML += meses_del_año[11]
+        
+        
+
+
+
+    </script>
+</body>
+</html>
