@@ -17,5 +17,7 @@ function CalcularPrecio(NumeroDeEntradas,PrecioDeEntrada) {
         PrecioDeEntrada = PrecioDeEntrada
     }
 
-    alert("El precio de tus entradas es = " + PrecioDeEntrada)
+    alert("El precio unitario de tus entradas es de = " + PrecioDeEntrada + "\n" + "El precio total de tus " + NumeroDeEntradas + " entradas es de = "  +(PrecioDeEntrada * NumeroDeEntradas))
+
+    document.getElementById("resultado").innerHTML = "El precio unitario de tus entradas es de = " + PrecioDeEntrada + " <br> " + "El precio total de tus " + NumeroDeEntradas + "entradas es de = " + (PrecioDeEntrada * NumeroDeEntradas)
 }   
