@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var entradas = Number(prompt("introduce la cantidad de entradas a comprar: "))
+        var precio_entrada = 100
+        var descuenta_3 = 0.30 
+            if(entradas >= 3){
+                precio_entrada = precio_entrada - (precio_entrada  * descuenta_3) 
+            } else if( entradas >= 2 ){
+                precio_entrada = precio_entrada - (precio_entrada  * 0,10) 
+            }
+            alert("El precio de la entrada es: " + precio_entrada)
+
+    </script>
+</body>
+</html>
