@@ -5,7 +5,7 @@ function ValidarDni(NumeroDni,LetraDni) {
     var NumeroDni = document.getElementById("NumeroDni").value
     var LetraDni = document.getElementById("LetraDni").value
     
-    if (NumeroDni < 0 || NumeroDni > 9999999 ) {
+    if (NumeroDni < 0 || NumeroDni > 99999999 ) {
         alert("dni invalido")
         
     }else if (true){
