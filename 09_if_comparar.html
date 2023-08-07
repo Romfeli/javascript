@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="numero1">
+    <input type="number" id="numero2">
+    <button id="comparar" onclick="comparar()">comparar</button>
+    <script>
+
+        function comparar(numero1,numero2) {
+            
+        
+            var numero1 = document.getElementById("numero1").value
+            var numero2 = document.getElementById("numero2").value
+
+            if(numero1>numero2){
+                alert("numero 1 es mayor que numero 2")
+            } else if(numero2>numero1){
+                alert("numero 2 es mayor que numero 1")
+            }
+        }
+    </script>
+</body>
+</html>
